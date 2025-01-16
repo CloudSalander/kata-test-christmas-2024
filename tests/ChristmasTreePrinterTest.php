@@ -15,7 +15,11 @@ class ChristmasTreePrinterTest extends TestCase {
     *****
      |||";
 
+    public function setUp(): void {
+        $this->treePrinter = new ChristmasTreePrinter();
+    }
     public function testWontWorkIfInputNotNumeric(): void {
+
     }
 
     public function testWontWorkIfNLessThan0(): void {
