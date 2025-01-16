@@ -1,9 +1,9 @@
 <?php 
 declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-include 'index.php';
+include '../src/ChristmasTPrinter.php';
 
-class ChristmasTreeTest extends TestCase {
+class ChristmasTreePrinterTest extends TestCase {
     //TODO: Maybe this out
     private const EMPTY_TREE = "|||";
     private const ONE_LEVEL_TREE = 
